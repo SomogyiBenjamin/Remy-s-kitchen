@@ -1,0 +1,508 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .App{
+        background-color: #ece4da;
+        user-select: none;
+        font-family: Apple Chancery, cursive;
+        scroll-behavior: smooth;
+    }
+    .maintitle{
+        text-align: center;
+        margin-bottom: 3%;
+        color: #564c3e;
+    }
+
+    .typesRow1 {
+        display: grid;
+        grid-template-columns: 1fr; /* Egy oszlop */
+        justify-items: center; /* Vízszintesen középre helyez */
+        align-items: center; /* Függőlegesen középre helyez */
+        gap: 1rem; /* Távolság az elemek között */
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem; /* Belső tér */
+        border-radius: 8px; /* Lekerekített sarkok */
+        transform: scale(1);
+        box-shadow: none;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 1px solid black;
+        margin: 0 1rem 1rem 1rem; 
+    }
+
+
+    .card:hover {
+        transform: scale(1.05); /* Növeli a méretet */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Árnyékot ad */
+    }
+    
+    .kep {
+        width: 40%; /* Kép szélesség */
+        height: auto;
+    }
+
+    .ContainerCheckbox { 
+        
+        display: flex; 
+        align-items: center; 
+        margin-top: 5%;
+    } 
+    
+    .ContainerCheckbox input[type="checkbox"] { 
+        display: none; 
+        margin-top: 5%;
+    }
+    
+    .ContainerCheckbox label {
+        display: flex; 
+        align-items: center; 
+        cursor: pointer; 
+        position: relative; 
+        padding-left: 25px; 
+    } 
+
+    .ContainerCheckbox label::before {
+        content: ''; 
+        display: block; 
+        width: 15px; 
+        height: 15px; 
+        border: 2px solid #4CAF50; 
+        border-radius: 3px; 
+        background-color: white; 
+        position: absolute; 
+        left: 0; 
+        transition: 0.3s; 
+    } 
+    
+    .ContainerCheckbox input[type="checkbox"]:checked + label::before {
+        background-color: #4CAF50; 
+        border-color: #4CAF50; 
+        margin-top: -5%;
+    } 
+    
+    .ContainerCheckbox input[type="checkbox"]:checked + label::after {
+        content: ''; 
+        position: absolute; 
+        left: 5px; 
+        top: 2px; 
+        width: 5px; 
+        height: 10px; 
+        border: solid white; 
+        border-width: 0 2px 2px 0; 
+        transform: rotate(45deg); 
+    }
+    
+    .buttondiv{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+        
+    .buttonallergy {
+        background: linear-gradient(120deg, #e6a04a, #ffbf80, #e6a04a); /* Dinamikus gradiens */
+        background-size: 200% 100%; /* Animációhoz túlméretezett háttér */
+        border: 2px solid #3c2f2f; /* Sötétbarna keret */
+        color: #3c2f2f;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px; /* Nagyobb betűméret a hangsúlyért */
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 20px; /* Még kerekebb forma */
+        width: 250px;
+        height: auto;
+        font-family: 'Apple Chancery', cursive;
+        box-shadow: 0 5px 15px rgba(230, 160, 74, 0.5), inset 0 0 8px rgba(255, 255, 255, 0.3); /* Külső és belső árnyék */
+        position: relative;
+        overflow: hidden; /* Animációk miatt */
+        transition: all 0.4s ease;
+    }
+    
+    .buttonallergy::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 150%;
+        height: 150%;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        transition: transform 0.5s ease;
+        z-index: 0;
+    }
+    
+    .buttonallergy:hover::after {
+        transform: translate(-50%, -50%) scale(1); /* Fénykör terjedése */
+    }
+    
+    .buttonallergy:hover {
+        background-position: 100% 0; /* Gradiens elmozdulás */
+        transform: translateY(-4px) scale(1.03); /* Finom kiemelés */
+        box-shadow: 0 8px 20px rgba(230, 160, 74, 0.7), inset 0 0 12px rgba(255, 255, 255, 0.4);
+        color: #2e1f1f;
+    }
+    
+    .buttonallergy:active {
+        transform: translateY(1px) scale(0.98);
+        box-shadow: 0 3px 10px rgba(230, 160, 74, 0.3), inset 0 0 5px rgba(255, 255, 255, 0.2);
+        background-position: 0 0; /* Visszaugrás */
+    }
+    
+    .buttonallergy span { /* Szöveghez z-index, hogy ne takarja az after */
+        position: relative;
+        z-index: 1;
+    }
+
+
+} /*telefon méret vége*/
+
+
+@media (min-width: 768px) and (max-width: 1023px) { /*Tablet méret */
+    .App{
+        background-color: #ece4da;
+        user-select: none;
+        font-family: Apple Chancery, cursive;
+        scroll-behavior: smooth;
+    }
+
+    .maintitle{
+        text-align: center;
+        margin-bottom: 3%;
+        color: #564c3e;
+    }
+
+    .typesRow1 {
+        display: grid;
+        grid-template-columns: 1fr; /* Egy oszlop */
+        justify-items: center; /* Vízszintesen középre helyez */
+        align-items: center; /* Függőlegesen középre helyez */
+    }
+
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem; /* Belső tér */
+        border-radius: 8px; /* Lekerekített sarkok */
+        transform: scale(1);
+        box-shadow: none;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 1px solid black;
+        margin: 0 1rem 1rem 1rem; 
+    }
+    
+    .card:hover {
+        transform: scale(1.1); /* Növeli a méretet */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Árnyékot ad */
+    }
+    
+    .kep {
+        width: 40%; /* Kép szélesség */
+        height: auto;
+    }
+
+    .ContainerCheckbox { 
+        
+        display: flex; 
+        align-items: center; 
+        margin-top: 5%;
+    } 
+    
+    .ContainerCheckbox input[type="checkbox"] { 
+        display: none; 
+        margin-top: 5%;
+    }
+    
+    .ContainerCheckbox label {
+        display: flex; 
+        align-items: center; 
+        cursor: pointer; 
+        position: relative; 
+        padding-left: 25px; 
+    } 
+    
+    .ContainerCheckbox label::before {
+        content: ''; 
+        display: block; 
+        width: 15px; 
+        height: 15px; 
+        border: 2px solid #4CAF50; 
+        border-radius: 3px; 
+        background-color: white; 
+        position: absolute; 
+        left: 0; 
+        transition: 0.3s; 
+    } 
+    
+    .ContainerCheckbox input[type="checkbox"]:checked + label::before {
+        background-color: #4CAF50; 
+        border-color: #4CAF50; 
+        margin-top: -5%;
+    } 
+    
+    .ContainerCheckbox input[type="checkbox"]:checked + label::after {
+        content: ''; 
+        position: absolute; 
+        left: 5px; 
+        top: 2px; 
+        width: 5px; 
+        height: 10px; 
+        border: solid white; 
+        border-width: 0 2px 2px 0; 
+        transform: rotate(45deg); 
+    }
+    
+    .buttondiv{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .buttonallergy {
+        background: linear-gradient(120deg, #e6a04a, #ffbf80, #e6a04a); /* Dinamikus gradiens */
+        background-size: 200% 100%; /* Animációhoz túlméretezett háttér */
+        border: 2px solid #3c2f2f; /* Sötétbarna keret */
+        color: #3c2f2f;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px; /* Nagyobb betűméret a hangsúlyért */
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 20px; /* Még kerekebb forma */
+        width: 250px;
+        height: auto;
+        font-family: 'Apple Chancery', cursive;
+        box-shadow: 0 5px 15px rgba(230, 160, 74, 0.5), inset 0 0 8px rgba(255, 255, 255, 0.3); /* Külső és belső árnyék */
+        position: relative;
+        overflow: hidden; /* Animációk miatt */
+        transition: all 0.4s ease;
+    }
+    
+    .buttonallergy::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 150%;
+        height: 150%;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        transition: transform 0.5s ease;
+        z-index: 0;
+    }
+    
+    .buttonallergy:hover::after {
+        transform: translate(-50%, -50%) scale(1); /* Fénykör terjedése */
+    }
+    
+    .buttonallergy:hover {
+        background-position: 100% 0; /* Gradiens elmozdulás */
+        transform: translateY(-4px) scale(1.03); /* Finom kiemelés */
+        box-shadow: 0 8px 20px rgba(230, 160, 74, 0.7), inset 0 0 12px rgba(255, 255, 255, 0.4);
+        color: #2e1f1f;
+    }
+    
+    .buttonallergy:active {
+        transform: translateY(1px) scale(0.98);
+        box-shadow: 0 3px 10px rgba(230, 160, 74, 0.3), inset 0 0 5px rgba(255, 255, 255, 0.2);
+        background-position: 0 0; /* Visszaugrás */
+    }
+    
+    .buttonallergy span { /* Szöveghez z-index, hogy ne takarja az after */
+        position: relative;
+        z-index: 1;
+    }
+}
+
+
+@media (min-width: 1024px) { /*Számítógép méret*/
+    .App{
+        background-color: #ece4da;
+        user-select: none;
+        font-family: Apple Chancery, cursive;
+        scroll-behavior: smooth;
+    }    
+    .maintitle{
+        text-align: center;
+
+        margin-bottom: 3%;
+        color: #564c3e;
+    }
+    
+    
+    .typesRow1:nth-child(3){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 3%;
+        
+    }
+    
+    .typesRow1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* Három oszlop */
+        justify-items: center; /* Vízszintesen középre helyez */
+        align-items: center; /* Függőlegesen középre helyez */
+        gap: 2rem; /* Távolság az elemek között */
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem; /* Belső tér */
+        border-radius: 8px; /* Lekerekített sarkok */
+        transform: scale(1);
+        box-shadow: none;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 1px solid black;
+    }
+    
+    .card:hover {
+        transform: scale(1.1); /* Növeli a méretet */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Árnyékot ad */
+    }
+    
+    .kep {
+        width: 40%; /* Kép szélesség */
+        height: auto;
+    }
+    
+    
+    .ContainerCheckbox { 
+        
+        display: flex; 
+        align-items: center; 
+        margin-top: 5%;
+    } 
+    
+    .ContainerCheckbox input[type="checkbox"] { 
+        display: none; 
+        margin-top: 5%;
+    }
+    
+    .ContainerCheckbox label {
+        display: flex; 
+        align-items: center; 
+        cursor: pointer; 
+        position: relative; 
+        padding-left: 25px; 
+    } 
+    
+    .ContainerCheckbox label::before {
+        content: ''; 
+        display: block; 
+        width: 15px; 
+        height: 15px; 
+        border: 2px solid #4CAF50; 
+        border-radius: 3px; 
+        background-color: white; 
+        position: absolute; 
+        left: 0; 
+        transition: 0.3s; 
+    } 
+    
+    .ContainerCheckbox input[type="checkbox"]:checked + label::before {
+        background-color: #4CAF50; 
+        border-color: #4CAF50; 
+        margin-top: -5%;
+    } 
+    
+    .ContainerCheckbox input[type="checkbox"]:checked + label::after {
+        content: ''; 
+        position: absolute; 
+        left: 5px; 
+        top: 2px; 
+        width: 5px; 
+        height: 10px; 
+        border: solid white; 
+        border-width: 0 2px 2px 0; 
+        transform: rotate(45deg); 
+    }
+    
+    .buttondiv{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    
+    .buttonallergy {
+        background: linear-gradient(120deg, #e6a04a, #ffbf80, #e6a04a); /* Dinamikus gradiens */
+        background-size: 200% 100%; /* Animációhoz túlméretezett háttér */
+        border: 2px solid #3c2f2f; /* Sötétbarna keret */
+        color: #3c2f2f;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px; /* Nagyobb betűméret a hangsúlyért */
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 20px; /* Még kerekebb forma */
+        width: 250px;
+        height: auto;
+        font-family: 'Apple Chancery', cursive;
+        box-shadow: 0 5px 15px rgba(230, 160, 74, 0.5), inset 0 0 8px rgba(255, 255, 255, 0.3); /* Külső és belső árnyék */
+        position: relative;
+        overflow: hidden; /* Animációk miatt */
+        transition: all 0.4s ease;
+    }
+    
+    .buttonallergy::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 150%;
+        height: 150%;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        transition: transform 0.5s ease;
+        z-index: 0;
+    }
+    
+    .buttonallergy:hover::after {
+        transform: translate(-50%, -50%) scale(1); /* Fénykör terjedése */
+    }
+    
+    .buttonallergy:hover {
+        background-position: 100% 0; /* Gradiens elmozdulás */
+        transform: translateY(-4px) scale(1.03); /* Finom kiemelés */
+        box-shadow: 0 8px 20px rgba(230, 160, 74, 0.7), inset 0 0 12px rgba(255, 255, 255, 0.4);
+        color: #2e1f1f;
+    }
+    
+    .buttonallergy:active {
+        transform: translateY(1px) scale(0.98);
+        box-shadow: 0 3px 10px rgba(230, 160, 74, 0.3), inset 0 0 5px rgba(255, 255, 255, 0.2);
+        background-position: 0 0; /* Visszaugrás */
+    }
+    
+    .buttonallergy span { /* Szöveghez z-index, hogy ne takarja az after */
+        position: relative;
+        z-index: 1;
+    }
+}
+
+

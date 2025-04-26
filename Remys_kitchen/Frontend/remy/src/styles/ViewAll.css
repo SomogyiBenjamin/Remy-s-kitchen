@@ -1,0 +1,256 @@
+/* viewAll */
+.view-all {
+    padding: 20px;
+  }
+  
+  .recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .recipe-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    background-color: #fff;
+  }
+  
+  .recipe-card h2 {
+    margin: 0 0 8px;
+  }
+  
+  .recipe-card p {
+    margin: 0 0 12px;
+  }
+  
+  .recipe-card ul,
+  .recipe-card ol {
+    padding-left: 20px;
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+.image-preview {
+    max-width: 200px;
+    max-height: 200px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+    -webkit-box-shadow: 0px 40px 196px -72px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 40px 196px -72px rgba(0,0,0,1);
+    box-shadow: 0px 40px 196px -72px rgba(0,0,0,1);
+  }
+    
+  .blog-item {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    border: 3px solid ;
+  }
+  
+  .blog-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .search-input {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  .filter-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .search-input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .tag-select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #card-description {
+    max-height: 10%;
+    margin-bottom: 40px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: hidden;
+  }
+  
+  hr{
+      width: 80%;
+      margin: auto;
+    }
+
+  .quick-info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    text-align: center;
+
+  }
+  .quick-info div>img{
+    flex: 1;
+    width: 60%;
+    height: 40%;
+    object-fit: contain;
+  }
+
+  .quick-info div>span{
+    flex: 1;
+    color: rgb(8, 122, 221);
+    font-size: 2rem;
+    position: relative;
+    top: -13px;
+  }
+
+  .quick-info div>div{
+    font-size: 1.2rem;
+  }
+
+  .blog-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+    -webkit-box-shadow: 0px 40px 196px -72px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 40px 196px -72px rgba(0,0,0,1);
+    box-shadow: 0px 40px 196px -72px rgba(0,0,0,1);
+  }
+
+
+
+  .blog-grid-view {
+    display: grid;
+    grid-template-columns: 1fr; /* Egy oszlop mobil nézetben */
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.sensitivityButton{
+  color: white;
+  background: linear-gradient(to right, rgb(12, 220, 12) 50%, rgb(241, 13, 13) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  border-radius: 20px;
+  border: none;
+  height: 50px;
+  width: 200px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-position 0.5s ease;
+}
+
+.disable{
+  /* background: rgb(241, 13, 13); */
+  background-position: right bottom;
+}
+
+@media (max-width: 768px){
+
+  .filter-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .viewallmaintitle{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .sensitivityButton {
+    margin-top: 10%;
+    align-self: center;
+  }
+
+  .search-input{
+    width: 90%;
+    align-self: center;
+    margin-left: 3%;
+  }
+
+  .tag-select{
+    width: 97%;
+    margin-left: 3%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .filter-container{
+    margin-top: 0%;
+    align-items: center;
+    align-self: center;
+  }
+
+  /* .sensitivityButton{
+    margin-top: 5%;
+  } */
+
+  .search-input{
+    width: 48%;
+    align-self: center;
+    margin-left: auto;
+  }
+
+  .tag-select{
+    width: 50%;
+    align-self: center;
+  }
+
+  .category-select{
+    width: 50%;
+    align-self: center;
+  }
+}
+
+@media (min-width: 1024px){
+  .filter-container{
+    align-items: center;
+  }
+}

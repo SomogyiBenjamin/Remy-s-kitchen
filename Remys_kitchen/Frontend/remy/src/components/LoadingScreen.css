@@ -1,0 +1,54 @@
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: bisque;
+}
+
+.loading-text {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  color: #333;
+  animation: fade 2s infinite;
+}
+
+.soup-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mouse {
+  z-index: 5;
+  position: absolute;
+  left: 50%;
+  animation: mouse-stir 2s infinite;
+}
+
+.mouse-image {
+  width: 80px;
+}
+
+.soup {
+  z-index: 1;
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+@keyframes mouse-stir {
+  0%, 100% { transform: translateX(-50%) rotate(-5deg); }
+  50% { transform: translateX(-50%) rotate(5deg); }
+}
+
+@keyframes fade {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}

@@ -1,0 +1,74 @@
+ /* Main Banner */
+ .main-banner {
+    position: relative;
+    text-align: center;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url('../asserts/maxresdefault.jpg') center/cover no-repeat;
+    color: white;
+    padding: 3rem 2rem;
+  }
+  
+  .banner-content {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .banner-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: Apple Chancery, cursive;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px white;
+  }
+  
+  .banner-button {
+    /* margin-top: 10%; */
+    margin-bottom: -15%;
+    background: linear-gradient(135deg, #c68e17, #f4c430); 
+    color: #2e2e2e; 
+    padding: 0.9rem 2rem;
+    border: 2px solid #c68e17; 
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-family: 'Apple Chancery', cursive;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 15px rgba(198, 142, 23, 0.3); 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-button:hover {
+    background: linear-gradient(135deg, #f4c430, #c68e17); 
+    border-color: #f4c430;
+    transform: translateY(-3px) scale(1.05); 
+    box-shadow: 0 6px 20px rgba(198, 142, 23, 0.5); 
+    color: black; 
+}
+
+.banner-button:active {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 2px 10px rgba(198, 142, 23, 0.2);
+}
+
+@media (max-width: 768px){
+  .banner-button{
+    margin-top: 10%;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+  .banner-button{
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner-button{
+    margin-top: 3%;
+  }
+}

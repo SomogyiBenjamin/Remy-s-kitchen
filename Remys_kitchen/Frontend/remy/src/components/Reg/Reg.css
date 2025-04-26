@@ -1,0 +1,546 @@
+.felbody {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Apple Chancery', cursive;
+  }
+  
+  .frame {
+    margin-bottom: 2%;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: grid;
+    border-radius: 10px;
+    background-color: darkgray;
+  }
+  
+  .column1 {
+    background-color: #e8d4b4;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .flex1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex1 > h2 {
+    font-size: large;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .columm2 {
+    background-color: #FFF8E7;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .columm2 > h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 2vh;
+  }
+  
+  .containerReg {
+    width: 70%;
+    margin-top: 20px;
+  }
+  
+  .entryarea {
+    position: relative;
+    height: 80px;
+    line-height: 80px;
+  }
+  
+  .inputField {
+    position: absolute;
+    width: 90%;
+    outline: none;
+    font-size: 1.5em;
+    padding: 0 30px;
+    line-height: 80px;
+    border-radius: 10px;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+  }
+  
+  .labelLine {
+    position: absolute;
+    font-size: 1em;
+    color: black;
+    background-color: #FFF8E7;
+    border-radius: 10px;
+    padding: 0 25px;
+    margin: 0 20px;
+    transition: 0.2s ease;
+  }
+  
+  input:focus + .labelLine,
+  input:valid + .labelLine {
+    color: black;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 12px;
+    transform: translate(-15px, -16px) scale(0.88);
+    z-index: 1111;
+  }
+  
+  .button2 {
+    margin-top: 12%;
+    margin-bottom: 3%;
+    background: linear-gradient(135deg, #c68e17, #f4c430);
+    color: #2e2e2e;
+    padding: 0.9rem 5rem;
+    border: 2px solid #c68e17;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-family: 'Apple Chancery', cursive;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 15px rgba(198, 142, 23, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button2:hover {
+    background: linear-gradient(135deg, #f4c430, #c68e17);
+    border-color: #f4c430;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 6px 20px rgba(198, 142, 23, 0.5);
+    color: black;
+  }
+  
+  .button2:active {
+    transform: translateY(0) scale(1);
+    box-shadow: 0 2px 10px rgba(198, 142, 23, 0.2);
+  }
+  
+  .progress-bar-container {
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-top: 3%;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.3s ease, background-color 0.3s ease;
+  }
+  
+  #fix, #fix2, #fix3 {
+    font-size: 17px;
+    margin-top: 3%;
+    margin-left: 15%;
+  }
+  
+  .placeholder {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: white;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+
+  .mouse-image2{
+    margin-top: 50%;
+    margin-left: 50%;
+    width: 75px;
+    height: auto;
+  }
+  .mouse2{
+    animation: mouse-stir 2s infinite;
+  }
+
+  @keyframes mouse-stir {
+    0%, 100% { transform: translateX(-50%) rotate(-5deg); }
+    50% { transform: translateX(-50%) rotate(5deg); }
+  }
+
+
+/* Mobil S méret (320px - 576px) */
+@media (max-width: 576px) {
+  .felbody {
+    min-height: 100vh;
+    padding: 10px;
+  }
+
+  .frame {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    margin-bottom: 5%;
+    border-radius: 8px;
+  }
+
+  .column1, .columm2 {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  .column1 {
+    padding-top: 15px;
+  }
+
+  .columm2 > h2 {
+    font-size: 24px;
+    margin-top: 1vh;
+  }
+
+  .containerReg {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .entryarea {
+    height: 60px;
+    line-height: 60px;
+    margin-left: 0;
+  }
+
+  .inputField {
+    font-size: 1em;
+    padding: 0 15px;
+    line-height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .labelLine {
+    font-size: 0.9em;
+    padding: 0 15px;
+    margin: 0 10px;
+  }
+
+  input:focus + .labelLine,
+  input:valid + .labelLine {
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    transform: translate(-10px, -12px) scale(0.85);
+  }
+
+  .button2 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 0.6rem 2rem;
+    font-size: 0.9rem;
+    min-width: 150px;
+    min-height: 44px;
+  }
+
+  .progress-bar-container {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .progress-bar {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.3s ease, background-color 0.3s ease;
+  }
+
+  #fix, #fix2, #fix3 {
+    font-size: 14px;
+    margin-top: 2%;
+    margin-left: 5%;
+    text-align: left;
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  .placeholder {
+    width: 120px;
+    height: 120px;
+    margin: 5px 0;
+  }
+
+  .SmallSizeCritPlace{
+    margin-top: 5%;
+    margin-left: 15%;
+  }
+  .SmallSizeCritPlaceLi{
+    padding-left: 3%;
+  }
+
+  .SmallSizeCritPlaceLi{
+    list-style-type: "X";
+  }
+}
+
+
+@media (max-width: 768px) {
+  .frame {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  .column1, .columm2 {
+    border-radius: 10px;
+    padding: 15px;
+  }
+  .containerReg {
+    width: 90%;
+  }
+  .entryarea {
+    margin-left: 2vh;
+  }
+  .inputField {
+    font-size: 1.2em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .progress-bar-container {
+    margin-top: 7%;
+    margin-left: 12%;
+    width: 80%;
+  }
+
+  #fix, #fix2, #fix3 {
+    font-size: 15px;
+    margin-top: 3%;
+    margin-left: 12%;
+  }
+
+  .placeholder {
+    width: 150px;
+    height: 150px;
+  }
+  .button2 {
+    margin-top: 15%;
+    margin-bottom: 3%;
+    padding: 0.7rem 3rem;
+    font-size: 1rem;
+  }
+  .bubblelist{
+    display: none;
+  }
+
+  .SmallSizeCritPlace{
+    margin-top: 5%;
+    margin-left: 15%;
+  }
+  .SmallSizeCritPlaceLi{
+    padding-left: 3%;
+  }
+
+  .SmallSizeCritPlaceLi{
+    list-style-type: "X";
+  }
+}
+    
+  /* Tablet (769px - 1024px) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+
+    .felbody {
+      min-height: 100%;
+      overflow: hidden;
+    }
+
+    .frame {
+      grid-template-columns: 1fr 1fr;
+    }
+    .containerReg {
+      width: 80%;
+    }
+    .placeholder {
+      width: 180px;
+      height: 180px;
+    }
+    .progress-bar-container{
+      margin-top: 10%;
+      margin-left: 3%;
+    }
+
+    .SmallSizeCritPlace{
+      display: none;
+    }
+
+    .bubblelist{
+      display: block;
+    }
+
+    .entryarea{
+      margin-right: 10%;
+    }
+
+
+    #fix, #fix2, #fix3 {
+      font-size: 15px;
+      margin-top: 4%;
+      margin-left: 10%;
+    }
+
+
+    .bubble {
+      margin-top: 2%;
+      position: relative;
+      background: #c9990aa0;
+      color: black;
+      font-family: 'Apple Chancery', cursive;
+      font-size: 20px;
+      box-shadow: 6px 5px 2px 0px #A3A3A3;
+      text-align: center;
+      width: 250px;
+      height: 130píx;
+      border-radius: 10px;
+      padding: 0px;
+  }
+  .bubble:after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 0;
+      z-index: 1;
+      border-style: solid;
+      border-width: 0 0 20px 20px;
+      border-color: transparent transparent  #c9990aa0 transparent;
+      top: -20px;
+      left: 50%;
+      margin-left: -10px;
+  }
+
+  .bubblelistli{
+    margin-left: 12%;
+    list-style-type: "X";
+  }
+
+  
+  }
+  
+  /* Laptop & PC (1024px - 1440px) */
+  @media (min-width: 1024px) {
+    .felbody {
+      display: flex;
+      /* min-height: 100vh; */
+      justify-content: center;
+      align-items: center;
+      background-image: url(../../asserts/maxresdefault.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  
+    .frame {
+      width: 70vw;
+      height: 30%;
+      /* max-height: 30vw; */
+      background-color: darkgray;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+  
+    .column1 {
+      background-color: #e8d4b4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .column1 > h2 {
+      position: relative;
+      top: 40px;
+    }
+  
+    .placeholder {
+      width: 35%;
+      height: auto;
+      border-radius: 50%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      border: 1px solid black;
+    }
+
+    .progress-bar-container{
+      margin-left: 4%;
+    }
+  
+    .containerReg {
+      width: 80%; 
+    }
+    .button2{
+      margin-top: 20%;
+    }
+
+    .bubble {
+      margin-top: 2%;
+      position: relative;
+      background: #c9990aa0;
+      color: black;
+      font-family: 'Apple Chancery', cursive;
+      font-size: 20px;
+      box-shadow: 6px 5px 2px 0px #A3A3A3;
+      text-align: center;
+      width: 250px;
+      height: 130px;
+      border-radius: 10px;
+      padding: 0px;
+  }
+  .bubble:after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 0;
+      z-index: 1;
+      border-style: solid;
+      border-width: 0 0 20px 20px;
+      border-color: transparent transparent  #c9990aa0 transparent;
+      top: -20px;
+      left: 50%;
+      margin-left: -10px;
+  }
+
+  .bubblelistli{
+    margin-left: 12%;
+    list-style-type: "X";
+  }
+
+  .SmallSizeCritPlace{
+    display: none;
+  }
+}
+
+.hidden{
+  display: none;
+}
+
+.bubblelistliCorrect{
+  list-style-type: "✔";
+}
+
+.bubblelistliIncorrect{
+  list-style-type: "X";
+}
+
+    

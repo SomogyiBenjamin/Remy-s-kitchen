@@ -1,0 +1,273 @@
+/* Alap stílusok (minden képernyőmérethez közös) */
+.fo {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Apple Chancery', cursive;
+}
+
+.kell {
+  display: flex;
+  justify-content: center;
+}
+
+.frameLog {
+  margin-top: 2vh;
+  background-color: #e8d4b4;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: solid black 1px;
+}
+
+.inputFieldLog {
+  position: absolute;
+  outline: none;
+  font-size: 1.5em;
+  padding: 0 30px;
+  line-height: 80px;
+  border-radius: 10px;
+  background: transparent;
+  transition: 0.1s ease;
+  z-index: 1111;
+}
+
+.labelLineLog {
+  position: absolute;
+  font-size: 1em;
+  color: black;
+  border-radius: 10px;
+  padding: 0 25px;
+  margin: 0 20px;
+  transition: 0.2s ease;
+}
+
+.column, .columnlast {
+  margin-left: 5%;
+}
+
+.columnlast {
+  text-align: right;
+  margin-right: 5%;
+}
+
+/* Telefon méret (max-width: 768px) */
+@media (max-width: 768px) {
+  .fo {
+    background-image: url(../../asserts/maxresdefault.jpg);
+    overflow-x: hidden;
+  }
+  .frameLog {
+      width: 23rem;
+      height: 40rem;
+      margin-bottom: 2%;
+  }
+
+  .inputFieldLog {
+      width: 150%;
+      margin-left: -7vh;
+      left: 3vh;
+  }
+
+  .labelLineLog {
+      background-color: #e8d4b4;
+      margin-left: -5vh;
+      left: 3vh;
+  }
+
+  .column, .columnlast {
+      margin-left: 3%;
+  }
+}
+
+/* Tablet méret (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .fo {
+    background-image: url(../../asserts/maxresdefault.jpg);
+  }
+
+  .frameLog {
+      width: 40rem;
+      height: 45rem;
+  }
+
+  .inputFieldLog {
+      width: 200%;
+      margin-left: -65%;
+  }
+
+  .labelLineLog {
+      background-color: #e8d4b4;
+      margin-left: -10vh;
+  }
+}
+
+/* PC méret (min-width: 1024px) */
+@media (min-width: 1024px) {
+  .fo {
+    background-image: url(../../asserts/maxresdefault.jpg);
+  }
+
+  .frameLog {
+      margin-top: 3vh;
+      width: 70vh;
+      height: 80vh;
+      background-color: #e8d4b4;
+      margin-bottom: 3%;
+  }
+
+  .inputFieldLog {
+      width: 180%;
+      margin-left: -7vh;
+  }
+
+  .labelLineLog {
+      background-color: #e8d4b4;
+      margin-left: -5vh;
+  }
+}
+
+/* Cím animáció */
+.contentLog > h1:hover {
+  animation: myAnim2 2s ease 0s 1 normal none;
+  color: #f4c430;
+  -webkit-text-stroke: 1px black;
+}
+
+@keyframes myAnim2 {
+  0%, 100% {
+      transform: translateX(0%);
+      transform-origin: 50% 50%;
+  }
+  15% {
+      transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+      transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+      transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+      transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+      transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+
+/* Input mezők és animációk */
+.container2 {
+  width: 70%;
+  margin-top: 20px;
+  position: relative;
+  top: 5vh;
+}
+
+.entryareaLog {
+  position: relative;
+  height: 80px;
+  line-height: 80px;
+}
+
+.inputFieldLog:focus {
+  color: black;
+  border: 4px solid #f4c430;
+}
+
+.inputFieldLog:focus + .labelLineLog, .inputFieldLog:valid + .labelLineLog {
+  color: black;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 12px;
+  transform: translate(-15px, -16px) scale(0.88);
+  z-index: 1111;
+}
+
+.contentLog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contentLog > h1 {
+  position: relative;
+  top: 4vh;
+}
+
+/* Gombok és animációk (Regbutton és loginbutton változatlan, csak itt vannak felsorolva) */
+.Regbutton {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0.8em 2.5em;
+  border: 3px solid #ff1a1a;
+  border-radius: 15px;
+  color: #1a1a1a;
+  font-size: 1.6em;
+  font-weight: 700;
+  font-family: 'Apple Chancery', cursive;
+  cursor: pointer;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ff1a1a, #e63946);
+  box-shadow: 0 0 15px rgba(255, 26, 26, 0.3);
+  transition: all 0.4s ease;
+  top: 10vh;
+  z-index: 1;
+  border: 1px black solid;
+}
+
+/* További Regbutton stílusok változatlanok, itt nem ismétlem */
+.loginbutton {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0.8em 2.5em;
+  border: 3px solid #39ff14;
+  border-radius: 15px;
+  color: #1a1a1a;
+  font-size: 1.6em;
+  font-weight: 700;
+  font-family: 'Apple Chancery', cursive;
+  cursor: pointer;
+  overflow: hidden;
+  background: linear-gradient(135deg, #39ff14, #2ecc71);
+  box-shadow: 0 0 15px rgba(57, 255, 20, 0.3);
+  transition: all 0.4s ease;
+  top: 10vh;
+  z-index: 1;
+  border: 1px black solid;
+}
+
+/* További loginbutton stílusok változatlanok */
+.missingAccount {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.missingAccount > button {
+  position: relative;
+  top: 15vh;
+}
+
+.missingAccount > #text {
+  position: relative;
+  font-size: 20px;
+  top: 12vh;
+}
+
+#footer-contentLogin {
+  background-color: #333; 
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: Apple Chancery, cursive;
+  height: 100px;
+}

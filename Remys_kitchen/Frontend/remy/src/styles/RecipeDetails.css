@@ -1,0 +1,517 @@
+ /*Recipe Details*/
+ .recipe-details {
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out; 
+  text-align: justify;
+}
+
+textarea{
+  resize: none;
+  width: 30vw;
+  height: 5vh;
+  border-radius: 10px;
+  text-align: justify;
+  padding: 5px 10px;
+}
+
+
+.recipe-details h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.recipe-image-large {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 25px;
+  transition: transform 0.3s ease-in-out; 
+  user-select: none;
+}
+
+.ulrecipedetails{
+  list-style-image: url('/images/ingredient.ico');
+}
+
+.recipe-image-large:hover {
+  transform: scale(1.05); 
+}
+
+.recipe-details h3 {
+  color: #f04e31;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.recipe-details ul, .recipe-details ol {
+  margin: 15px 0;
+  justify-self: center;
+}
+
+.recipe-details input[type="text"] {
+  /* width: 30%; */
+  padding: 7px;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #fbfbfb;
+  border: 2px solid black;
+  height: 36px;
+  box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
+  :focus{
+    border: 2px solid #000;
+    border-radius: 4px;
+  }
+
+}
+
+.recipe-details input[type="number"] {
+  padding: 7px;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #fbfbfb;
+  border: 2px solid black;
+  height: 36px;
+  box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
+  :focus{
+    border: 2px solid #000;
+    border-radius: 4px;
+  }
+
+}
+
+.recipe-details li {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.recipe-details li:last-child {
+  margin-bottom: 0;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #f04e31;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-button:hover {
+  background-color: #c03c26;
+  transform: translateY(-2px);
+}
+
+.back-button:focus {
+  outline: none;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.star {
+  font-size: 2rem;
+  color: #ccc;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.star.filled {
+  color: #f4c430; /* Arany szín */
+}
+
+.toAnimate{
+  position: relative;
+  transition: ease-in-out 1.5s;
+  animation-name: AcceptAnimation;
+  animation-duration: 1.5s;
+}
+
+.toReject{
+  position: relative;
+  transition: ease-in-out 1.5s;
+  animation-name: RejectAnimation;
+  animation-duration: 1.5s;
+}
+.action-buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.accept-button{
+  background-color: rgb(1, 205, 1);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.accept-button:hover{
+  background-color: green;
+}
+.reject-button{
+  background-color: red;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.reject-button:hover{
+  background-color: rgb(190, 0, 0);
+}
+
+#adminQuantity{
+  width: 10%;
+}
+
+#adminDescription{
+  margin: auto;
+  height: 15vh;
+  width: 30vw;
+}
+
+.stepsDescription{
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+}
+
+
+
+.Attributes{
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  text-align: center;
+
+}
+.Attributes div{
+  flex: 1;
+}
+#time{
+  width: 20%;
+}
+
+#difficulty{
+  width: 20%;
+}
+
+/* .Attributes div>img{
+  width: 20%;
+} */
+.Attributes div>input{
+  margin-left: 20px;
+}
+
+#categoryImg{
+  width: 10%;
+}
+#categoryName{
+  width: 10%;
+}
+
+#defficultyimage{
+  width: 23%;
+}
+
+#defficultyName{
+  width: 20%;
+  margin-left: 10%;
+}
+
+#ingredientList{
+  list-style-image: url('/images/ingredient.ico');
+  margin-left: 5%;
+}
+
+
+.button{
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.viewTagButton{
+  display: flex;
+  color: white;
+  background-color: green;
+  border-radius: 4px;
+  transition: ease-in 0.3s;
+}
+
+.TagButton{
+  display: flex;
+  color: white;
+  background-color: green;
+  border-radius: 4px;
+  transition: ease-in 0.3s;
+}
+@media (max-width: 768px){
+
+  #categoryImg{
+    width: 20%;
+  }
+
+  #categoryName{
+    width: 30%;
+  }
+
+  #timeimage{
+    width: 40%;
+  }
+
+  #time{
+    width: 30%;
+    margin-left: 10%;
+  }
+
+  #defficultyName{
+    width: 50%;
+  }
+
+ /* Admin recept felület --> recepten részletei*/
+
+  /* A recept címe */
+  h1 >.editable-field{
+    width: 95%;
+  }
+
+  #timeAdmin{
+    width: 30%q;
+  }
+
+  /* A recept leírása */
+  #adminDescription{
+    width: 95%;
+  }
+
+  #difficultyAdmin{
+    width: 30% !important;
+    margin-right: 10%;
+
+  }
+
+  #difficulty{
+    width: 60%;
+    margin-left: 0%;
+  }
+
+  /* A recept hozzávaló */
+  li > .editable-field{
+    width: 40%;
+  }
+
+  /* A recept hozzávaló mennyisége számban */
+  li > .adminQuantity{
+    width: 25%;
+  }
+
+  /* A recept hozzávaló mértékegysége */
+  .unit{
+    margin-top: 5%;
+    border-radius: 5px;
+  }
+
+  .adminOl{
+    list-style-position: inside;
+  }
+
+  .adminStepDescription{
+    width: 95% !important;
+    height: 150px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  #categoryImg{
+    width: 10%;
+  }
+
+  #categoryName{
+    width: 20%;
+  }
+
+  #timeimage{
+    width: 20%;
+  }
+
+  #time{
+    width: 20%;
+    margin-left: 10%;
+  }
+
+  #defficultyName{
+    width: 20%;
+    margin-left: 10%;
+  }
+  #defficultyimage{
+    width: 20%;
+  }
+
+  /* Admin recept felület --> recepten részletei*/
+
+
+  h1 >.editable-field{
+    text-align: center;
+  }
+
+  #difficultyAdmin{
+    width: 20% !important;
+    margin-right: 5%;
+  }
+
+  #difficulty{
+    width: 40%;
+    margin-left: 0%;
+  }
+
+  .adminStepDescription{
+    width: 400px !important;
+  }
+}
+
+@media (min-width: 1024px){
+  #defficultyimage{
+    width: 20%;
+  }
+
+  /* Admin recept felület --> recepten részletei*/
+
+  h1 >.editable-field{
+    text-align: center;
+    width: 50%;
+  }
+
+  #adminDescription{
+    width: 75% !important;
+  }
+
+  .unit{
+    width: 13%;
+  }
+
+  #adminDescription{
+    width: 100%;
+    height: 300px !important;
+  }
+}
+
+
+.TagButton:hover{
+  background-color: rgb(0, 255, 255);
+  transition: ease-in 0.3s;
+  background-image: url("../../public/images/recycle-bin.png");
+  filter: invert(1);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+}
+
+.deletedTag{
+  background-color: rgb(0, 255, 255);
+  transition: ease-in 0.3s;
+  background-image: url("../../public/images/recycle-bin.png");
+  filter: invert(1);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+}
+.AdminTagContainer{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap; 
+  gap: 10px;
+}
+@keyframes AcceptAnimation{
+  0%{
+    position: relative;
+    transition: ease-in-out 1.5s;
+    transform: rotate(0deg);
+    left: 0px;
+  }
+  100%{
+    position: relative;
+    transition: ease-in-out 1.5s;
+    transform: rotate(-20deg);
+    left: -500px;
+  }
+}
+
+
+@keyframes RejectAnimation{
+  0%{
+    position: relative;
+    transition: ease-in-out 1.5s;
+    transform: rotate(0deg);
+    left: 0px;
+  }
+  100%{
+    position: relative;
+    transition: ease-in-out 1.5s;
+    transform: rotate(20deg);
+    left: 500px;
+  }
+}
+
+
+/*Beni */
+.TagButton{
+  display: flex;
+  color: white;
+  background-color: green;
+  border-radius: 4px;
+  transition: ease-in 0.3s;
+}
+
+.TagButton:hover{
+  background-color: rgb(0, 255, 255);
+  transition: ease-in 0.3s;
+  background-image: url("../../public/images/recycle-bin.png");
+  filter: invert(1);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+}
+
+.deletedTag{
+  background-color: rgb(0, 255, 255);
+  transition: ease-in 0.3s;
+  background-image: url("../../public/images/recycle-bin.png");
+  filter: invert(1);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+}
+.AdminTagContainer{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap; 
+  gap: 10px;
+}

@@ -1,0 +1,32 @@
+/* Általános beállítások */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(195, 156, 88, 0.455);
+  color: #333;
+  line-height: 1.6;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.star-rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.star {
+  font-size: 2rem;
+  color: #ccc;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.star.filled {
+  color: #f4c430; 
+}
+

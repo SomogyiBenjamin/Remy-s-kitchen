@@ -1,0 +1,161 @@
+/* Header alapstílusok */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #A67B5B;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Apple Chancery, cursive;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px black;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .nav a {
+    font-family: Apple Chancery, cursive;
+    -webkit-text-stroke: 0.1px black;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .nav a:hover {
+    color: orange;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hamburger .line {
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    transition: all 0.3s ease;
+  }
+
+
+#overlay *{
+  
+text-align: center;
+}
+
+@media (max-width: 768px) {
+    .nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      flex-direction: column;
+      align-items: center;
+      transform: translateY(-200%);
+      z-index: 5;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  
+
+  
+    .nav a {
+      padding: 1rem 0;
+      width: 100%;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+
+    .nav.nav-open {
+      transform: translateY(0);
+      background-color: #e5d2b2;
+      color: black;
+      -webkit-text-stroke: black 1px;
+    }
+
+    .nav-link{
+      color: black !important;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+    .logo {
+      font-size: 1.2rem;
+    }
+  }
+    
+
+
+  .profile {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .profile-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .profile-icon-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+    
+  .profile-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 150px;
+  }
+  
+  .profile-menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+  
+  .profile-menu a:hover {
+    background-color: #f0f0f0;
+  }
+  
