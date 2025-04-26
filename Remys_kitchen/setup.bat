@@ -2,22 +2,33 @@
 
 set "CURRENT_DIR=%cd%"
 
-::1. XAMPP elindítása
-set "XAMPP_PATH=C:\xampp"
+:: 1. XAMPP elindítása
+set "XAMPP_PATH_C=C:\xampp"
+set "XAMPP_PATH_D=D:\xampp"
 
-if exist "%XAMPP_PATH%" (
+set "XAMPP_FOUND=false"
+
+:: C meghajtó ellenőrzése
+if exist "%XAMPP_PATH_C%" (
+    set "XAMPP_PATH=%XAMPP_PATH_C%"
+    set "XAMPP_FOUND=true"
+)
+
+:: D meghajtó ellenőrzése
+if exist "%XAMPP_PATH_D%" (
+    set "XAMPP_PATH=%XAMPP_PATH_D%"
+    set "XAMPP_FOUND=true"
+)
+
+if "%XAMPP_FOUND%"=="true" (
     echo XAMPP mappa megtalálva a következő helyen: %XAMPP_PATH%.
-
     echo Apache és MySQL elindítása...
     cd /d "%XAMPP_PATH%"
     start "" "%XAMPP_PATH%\xampp_start.exe"
-
     timeout /t 5 >nul
-
-
     cd /d "%CURRENT_DIR%"
 ) else (
-    echo XAMPP mappa nem található a következő helyen: %XAMPP_PATH%. Ellenőrizd a helyes telepítést!
+    echo XAMPP mappa nem található sem a C:\xampp, sem a D:\xampp mappában. Ellenőrizd a helyes telepítést!
 )
 
 :: 2. React projekt indítása
@@ -26,24 +37,32 @@ set "REACT_DIR=%CURRENT_DIR%\Frontend\remy"
 if exist "%REACT_DIR%\package.json" (
     echo React projekt észlelve a következő helyen: %REACT_DIR%.
     cd /d "%REACT_DIR%"
-
     echo React alkalmazás indítása...
     start cmd /k "npm run dev"
 ) else (
     echo React projekt nem található a következő mappában: %REACT_DIR%.
 )
+
 :: 3. C# Backend indítása
-set "BACKEND_DIR=%CURRENT_DIR%\Backend\Remy_Backend"
+set "BACKEND_DIR=%CURRENT_DIR%\Backend"
 
 if exist "%BACKEND_DIR%\BistroRemy.sln" (
     echo Backend projekt észlelve a következő helyen: %BACKEND_DIR%.
     cd /d "%BACKEND_DIR%"
-    echo Backend indítása...
-    start "" "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe" BistroRemy.sln
+    echo Backend indítása Visual Studio 2022-vel...
+    if exist "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe" (
+        start "" "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe" BistroRemy.sln
+    ) else (
+        echo Visual Studio 2022 nem található, próbálkozás Visual Studio 2019-cel...
+        if exist "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe" (
+            start "" "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe" BistroRemy.sln
+        ) else (
+            echo Sem Visual Studio 2022, sem Visual Studio 2019 nem található.
+        )
+    )
 ) else (
     echo Backend projekt nem található a következő mappában: %BACKEND_DIR%.
 )
-
 
 :: 4. Flask (Python) indítása
 set "FLASK_DIR=%REACT_DIR%"
@@ -51,7 +70,6 @@ set "FLASK_DIR=%REACT_DIR%"
 if exist "%FLASK_DIR%\app.py" (
     echo Flask backend észlelve a következő helyen: %FLASK_DIR%.
     cd /d "%FLASK_DIR%"
-
     python --version >nul 2>&1
     if errorlevel 1 (
         echo Python nincs telepítve. Letöltés és telepítés...
@@ -60,10 +78,8 @@ if exist "%FLASK_DIR%\app.py" (
         pause
         exit /b
     )
-
     echo Flask és Flask-CORS telepítése...
     python -m pip install flask flask-cors
-
     echo Flask backend indítása...
     start cmd /k "python app.py"
 ) else (
