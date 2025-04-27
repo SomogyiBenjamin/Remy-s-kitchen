@@ -369,10 +369,12 @@
 
   #description{
     width: 95%;
+    height: 90%;
   }
 
   #description{
     resize: none;
+    height: 90%;
   }
 
   #categoryImgUpload{
@@ -536,6 +538,7 @@
     resize: none;
     width: 85%;
     margin-left: 3rem;
+    height: 90%;
   }
 
   #categoryImgUpload{
@@ -718,5 +721,6 @@
     resize: none;
     width: 85%;
     margin-left: 3rem;
+    height: 90%;
   }
 }

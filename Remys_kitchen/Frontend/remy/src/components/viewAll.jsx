@@ -349,13 +349,17 @@ function ViewAll() {
 
           {/*<span>Érzékenységek figyelembevétele</span>
           <input type="checkbox" name="" className="useAllergy" id="" value={allergies} onChange={(e)=>setUseAllergies(e.target.checked)}/>*/}
-          <button className="sensitivityButton" value={allergies} onClick={(e)=>{
-            setUseAllergies(!allergies)
-            e.target.classList.toggle("disable")
-            }} onTouchEnd={(e => {
-              e.preventDefault();
+
+          {
+            userSensitivities.length>0?     <button className="sensitivityButton" value={allergies} onClick={(e)=>{
+              setUseAllergies(!allergies)
               e.target.classList.toggle("disable")
-            })}>Érzékenységek</button>
+              }} onTouchEnd={(e => {
+                e.preventDefault();
+                e.target.classList.toggle("disable")
+              })}>Érzékenységek</button>:null
+          }
+     
             <input
               type="text"
               placeholder="Keresés a receptek között..."
