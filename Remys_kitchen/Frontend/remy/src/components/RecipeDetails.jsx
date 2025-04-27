@@ -43,27 +43,22 @@ function RecipeDetails() {
   const fetchRating = async () => {
     try {
       const response = await fetch(apiUrlR);
-      //if (!response.ok) throw new Error(`HTTP hiba (értékelés): ${response.status}`);
       const data = await response.json();
 
-
-
-      //Ezzel keresem hogy töltött-e már fel receptet
-      const userRating = data.find((r) => r.FelhasznaloId === user.id);
-
+      const userRating = data.find((r) => r.FelhasznaloId === user?.id);
       if (userRating) {
         setUserRating(userRating.Csillag);
         setUserRatingId(userRating.Ertid);
       }
-      console.log(userRating);
 
-      const averageRating = data.reduce((sum, r) => sum + r.Csillag, 0) / data.length;
-      setRating(Math.round(averageRating));
+      if (data.length > 0) {
+        const averageRating = data.reduce((sum, r) => sum + r.Csillag, 0) / data.length;
+        setRating(Math.round(averageRating));
+      }
     } catch (error) {
-     // setError("Hiba az értékelés lekérdezése során.");
+      console.error("Hiba az értékelés lekérdezésekor:", error);
     }
-  };
-
+  }
 
 
   useEffect(() => {
