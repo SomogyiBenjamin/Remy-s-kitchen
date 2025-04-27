@@ -1123,6 +1123,6 @@ C:\Users\ASUS\Documents\GitHub\Remy-s-kitchen\Remys_kitchen\Backend\BistroRemy\b
 C:\Users\ASUS\Documents\GitHub\Remy-s-kitchen\Remys_kitchen\Backend\BistroRemy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\ASUS\Documents\GitHub\Remy-s-kitchen\Remys_kitchen\Backend\BistroRemy\obj\Debug\BistroRemy.csproj.AssemblyReference.cache
 C:\Users\ASUS\Documents\GitHub\Remy-s-kitchen\Remys_kitchen\Backend\BistroRemy\obj\Debug\BistroRemy.csproj.CoreCompileInputs.cache
-C:\Users\ASUS\Documents\GitHub\Remy-s-kitchen\Remys_kitchen\Backend\BistroRemy\obj\Debug\BistroRemy.csproj.CopyComplete
 C:\Users\ASUS\Documents\GitHub\Remy-s-kitchen\Remys_kitchen\Backend\BistroRemy\obj\Debug\BistroRemy.dll
 C:\Users\ASUS\Documents\GitHub\Remy-s-kitchen\Remys_kitchen\Backend\BistroRemy\obj\Debug\BistroRemy.pdb
+C:\Users\ASUS\Documents\GitHub\Remy-s-kitchen\Remys_kitchen\Backend\BistroRemy\obj\Debug\BistroRemy.csproj.Up2Date
