@@ -90,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -119,6 +119,10 @@
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "TestHozzavaloDbSet.cs",
@@ -138,7 +142,7 @@
               "RelativeDocumentMoniker": "BistroRemy\\Controllers\\HozzavaloController.cs",
               "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Controllers\\HozzavaloController.cs",
               "RelativeToolTip": "BistroRemy\\Controllers\\HozzavaloController.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAiwMEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAA4wMEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T21:21:07.137Z",
               "EditorCaption": ""
@@ -166,10 +170,6 @@
               "ViewState": "AgIAAE4AAAAAAAAAAAAiwFsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T21:08:36.433Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
