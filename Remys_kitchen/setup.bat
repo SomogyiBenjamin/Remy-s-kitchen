@@ -1,4 +1,5 @@
 @echo off
+setlocal enabledelayedexpansion
 
 set "CURRENT_DIR=%cd%"
 
@@ -24,11 +25,12 @@ if "%XAMPP_FOUND%"=="true" (
     echo XAMPP mappa megtalálva a következő helyen: %XAMPP_PATH%.
     echo Apache és MySQL elindítása...
     cd /d "%XAMPP_PATH%"
-    start "" "%XAMPP_PATH%\xampp_start.exe"
+    start "" /wait "%XAMPP_PATH%\xampp_start.exe"
     timeout /t 5 >nul
     cd /d "%CURRENT_DIR%"
 ) else (
     echo XAMPP mappa nem található sem a C:\xampp, sem a D:\xampp mappában. Ellenőrizd a helyes telepítést!
+    pause
 )
 
 :: 2. React projekt indítása
@@ -37,12 +39,20 @@ set "REACT_DIR=%CURRENT_DIR%\Frontend\remy"
 if exist "%REACT_DIR%\package.json" (
     echo React projekt észlelve a következő helyen: %REACT_DIR%.
     cd /d "%REACT_DIR%"
+    
+    echo Csomagok telepítése...
+    call npm install
+    call npm install react-router-dom@latest
+    call npm install vite@4
+    call npm install cypress --save-dev
+    
     echo React alkalmazás indítása...
-    start cmd /k "npm run dev"
+    start "" "cmd.exe" /k "npm run dev"
+    timeout /t 2 >nul
 ) else (
     echo React projekt nem található a következő mappában: %REACT_DIR%.
+    pause
 )
-
 :: 3. C# Backend indítása
 set "BACKEND_DIR=%CURRENT_DIR%\Backend"
 
@@ -70,6 +80,7 @@ set "FLASK_DIR=%REACT_DIR%"
 if exist "%FLASK_DIR%\app.py" (
     echo Flask backend észlelve a következő helyen: %FLASK_DIR%.
     cd /d "%FLASK_DIR%"
+    
     python --version >nul 2>&1
     if errorlevel 1 (
         echo Python nincs telepítve. Letöltés és telepítés...
@@ -78,12 +89,16 @@ if exist "%FLASK_DIR%\app.py" (
         pause
         exit /b
     )
+    
     echo Flask és Flask-CORS telepítése...
     python -m pip install flask flask-cors
     echo Flask backend indítása...
-    start cmd /k "python app.py"
+    start "" "cmd.exe" /k "python app.py"
+    timeout /t 2 >nul
 ) else (
     echo Flask backend nem található a következő mappában: %FLASK_DIR%.
+    pause
 )
 
-pause
+echo Minden folyamat elindítva. A parancsablak bezárásához nyomj Entert...
+pause >nul
