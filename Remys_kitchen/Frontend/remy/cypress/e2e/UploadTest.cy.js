@@ -210,16 +210,7 @@ describe('Upload Form Functionality', () => {
     cy.get('#category').select('Leves');
     cy.get('#time').type('30');
     cy.get('#difficultyInput').select('Közepes');
-  
-    // cy.get('#image').attachFile({
-    //   filePath: 'testimage.png',
-    //   mimeType: 'image/png'
-    // }).then(($input) => {
-    //   $input[0].dispatchEvent(new Event('change', { bubbles: true }));
-    // });
-  
-    // cy.wait('@uploadImage', { timeout: 10000 });
-  
+    
     cy.get('#ingredientFirst').type('Liszt');
     cy.get('.autocomplete-list li').contains('Liszt').click();
     cy.wait('@getUnitsForLiszt');

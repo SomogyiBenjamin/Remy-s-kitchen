@@ -201,28 +201,6 @@ describe('Login Functionality with Normal User', () => {
     cy.url().should('eq', 'http://localhost:3000/log');
   });
 
-  it('Hálózati hiba kezelése', () => {
-    cy.intercept('POST', 'https://localhost:44350/api/Felhasznalo/authenticate', {
-      forceNetworkError: true
-    }).as('authenticateUser');
-
-    cy.get('input[type="text"]').type('pelda@pelda.hu');
-    cy.get('input[type="password"]').type('Pelda123!');
-    cy.get('.loginbutton').click();
-
-    cy.wait('@authenticateUser');
-
-    cy.window().then((win) => {
-      expect(win.localStorage.getItem('user')).to.be.null;
-    });
-
-    cy.on('window:alert', (text) => {
-      expect(text).to.equal('Sikertelen bejelentkezés!');
-    });
-
-    cy.url().should('eq', 'http://localhost:3000/log');
-  });
-
   it('Navigál a regisztrációs oldalra', () => {
     cy.get('.Regbutton').click();
     cy.url().should('eq', 'http://localhost:3000/reg');

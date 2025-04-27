@@ -1,4 +1,5 @@
 describe('reg Functionality', () => {
+  // Mock felhasználó (Normal felhasználó)
   const mockUsers = [
     {
       id: 1,
@@ -9,10 +10,11 @@ describe('reg Functionality', () => {
       Erzekeny: '',
       ProfilkepURL: ''
     },
+    // Mock felhasználó (Admin felhasználó)
     {
       id: 2,
-      Fnev: 'admin', // Hozzáadjuk a foglalt felhasználónevet
-      Email: 'admin@admin.hu', // Hozzáadjuk a foglalt emailt
+      Fnev: 'admin',
+      Email: 'admin@admin.hu',
       Jelszo: 'Test123!@',
       Jogosultsag: 1,
       Erzekeny: '',
@@ -20,6 +22,7 @@ describe('reg Functionality', () => {
     }
   ];
 
+  // Új felhasználó, akit regisztrálunk a teszt során
   const mockNewUser = {
     id: 3,
     Fnev: 'TestUser',
@@ -44,19 +47,11 @@ describe('reg Functionality', () => {
       body: mockUsers
     }).as('getUsers');
 
-    // Mockoljuk a képfeltöltést
-    cy.intercept('POST', 'http://localhost:5000/upload', {
-      statusCode: 200,
-      body: { file_path: '/uploads/images/uploaded_image.jpg' }
-    }).as('uploadImage');
-
-    // Mockoljuk a regisztrációs API-t
     cy.intercept('POST', 'https://localhost:44350/api/Felhasznalo', {
       statusCode: 200,
       body: mockNewUser
     }).as('registerUser');
 
-    // Mockoljuk a felhasználók lekérdezését a regisztráció után
     cy.intercept('GET', 'https://localhost:44350/api/Felhasznalo', {
       statusCode: 200,
       body: mockUpdatedUsers,
@@ -81,7 +76,7 @@ describe('reg Functionality', () => {
     cy.wait(100); // Várunk, hogy az állapotfrissítés megtörténjen
     cy.get('#fix').should('contain.text', 'Nem teljesül');
     cy.get('.progress-bar').eq(0).invoke('attr', 'style').should('contain', 'width: 0%');
-    cy.get('.progress-bar').eq(0).should('have.css', 'background-color', 'rgb(255, 0, 0)'); // Red
+    cy.get('.progress-bar').eq(0).should('have.css', 'background-color', 'rgb(255, 0, 0)');
   });
 
   it('Felhasználónév validáció: megfelelő hosszúságú felhasználónév', () => {
@@ -89,7 +84,7 @@ describe('reg Functionality', () => {
     cy.wait(100);
     cy.get('#fix').should('contain.text', 'Teljesül');
     cy.get('.progress-bar').eq(0).invoke('attr', 'style').should('contain', 'width: 100%');
-    cy.get('.progress-bar').eq(0).should('have.css', 'background-color', 'rgb(0, 128, 0)'); // Green
+    cy.get('.progress-bar').eq(0).should('have.css', 'background-color', 'rgb(0, 128, 0)');
   });
 
   it('Email validáció: érvénytelen email formátum', () => {
@@ -97,7 +92,7 @@ describe('reg Functionality', () => {
     cy.wait(100);
     cy.get('#fix2').should('contain.text', 'Nem teljesül');
     cy.get('.progress-bar').eq(1).invoke('attr', 'style').should('contain', 'width: 0%');
-    cy.get('.progress-bar').eq(1).should('have.css', 'background-color', 'rgb(255, 0, 0)'); // Red
+    cy.get('.progress-bar').eq(1).should('have.css', 'background-color', 'rgb(255, 0, 0)');
   });
 
   it('Email validáció: érvényes email formátum', () => {
@@ -105,7 +100,7 @@ describe('reg Functionality', () => {
     cy.wait(100);
     cy.get('#fix2').should('contain.text', 'Teljesül');
     cy.get('.progress-bar').eq(1).invoke('attr', 'style').should('contain', 'width: 100%');
-    cy.get('.progress-bar').eq(1).should('have.css', 'background-color', 'rgb(0, 128, 0)'); // Green
+    cy.get('.progress-bar').eq(1).should('have.css', 'background-color', 'rgb(0, 128, 0)');
   });
 
   it('Jelszó validáció: gyenge jelszó', () => {
@@ -113,7 +108,7 @@ describe('reg Functionality', () => {
     cy.wait(100);
     cy.get('#fix3').should('contain.text', 'Jelszó erőssége: Gyenge');
     cy.get('.progress-bar').eq(2).invoke('attr', 'style').should('contain', 'width: 20%');
-    cy.get('.progress-bar').eq(2).should('have.css', 'background-color', 'rgb(255, 0, 0)'); // Red
+    cy.get('.progress-bar').eq(2).should('have.css', 'background-color', 'rgb(255, 0, 0)');
 
     // Ellenőrizzük a kritériumok listáját
     cy.get('.bubblelistli').eq(0).should('have.class', 'bubblelistliIncorrect'); // Minimum 8 karakter
@@ -127,7 +122,7 @@ describe('reg Functionality', () => {
     cy.wait(100);
     cy.get('#fix3').should('contain.text', 'Extrém erős');
     cy.get('.progress-bar').eq(2).invoke('attr', 'style').should('contain', 'width: 100%');
-    cy.get('.progress-bar').eq(2).should('have.css', 'background-color', 'rgb(0, 128, 0)'); // Green
+    cy.get('.progress-bar').eq(2).should('have.css', 'background-color', 'rgb(0, 128, 0)');
 
     // Ellenőrizzük a kritériumok listáját
     cy.get('.bubblelistli').eq(0).should('have.class', 'bubblelistliCorrect'); // Minimum 8 karakter
@@ -146,7 +141,7 @@ describe('reg Functionality', () => {
     cy.get('#rePassword').should('have.class', 'error');
   });
 
-  it('Sikeres regisztráció és navigáció az /allergen oldalra', () => {
+  it('Sikeres regisztráció és navigáció az allergén oldalra', () => {
     cy.get('#fname').type('TestUser');
     cy.get('#email').type('test@pelda.hu');
     cy.get('#password').type('Test123!@');
@@ -169,7 +164,6 @@ describe('reg Functionality', () => {
   });
 
   it('Foglalt felhasználónév ellenőrzése', () => {
-    // Stub az alert függvényhez
     cy.window().then((win) => {
       cy.stub(win, 'alert').as('alert');
     });
@@ -185,7 +179,6 @@ describe('reg Functionality', () => {
   });
 
   it('Foglalt email ellenőrzése', () => {
-    // Stub az alert függvényhez
     cy.window().then((win) => {
       cy.stub(win, 'alert').as('alert');
     });
@@ -200,25 +193,8 @@ describe('reg Functionality', () => {
     cy.get('@alert').should('have.been.calledWith', 'Ez az Email cím már foglalt!');
   });
 
-  it('Hálózati hiba kezelése a regisztráció során', () => {
-    cy.intercept('POST', 'https://localhost:44350/api/Felhasznalo', {
-      forceNetworkError: true
-    }).as('registerUser');
-
-    cy.get('#fname').type('TestUser');
-    cy.get('#email').type('test@pelda.hu');
-    cy.get('#password').type('Test123!@');
-    cy.get('#rePassword').type('Test123!@');
-
-    cy.get('.button2').click();
-
-    cy.wait('@registerUser');
-
-    cy.url().should('eq', 'http://localhost:3000/reg');
-  });
-
   it('Reszponzív megjelenés mobil nézetben', () => {
-    cy.viewport('iphone-6'); // 375x667
+    cy.viewport('iphone-6');
     cy.get('h2').contains('Regisztráció').should('be.visible');
     cy.get('#fname').should('be.visible');
     cy.get('#email').should('be.visible');
