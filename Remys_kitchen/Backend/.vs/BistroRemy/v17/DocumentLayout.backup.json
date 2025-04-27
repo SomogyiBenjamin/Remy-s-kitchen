@@ -1,85 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|c:\\users\\asus\\documents\\github\\remy-s-kitchen\\remys_kitchen\\backend\\bistroremy\\controllers\\hozzavalocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|c:\\users\\asus\\documents\\github\\remy-s-kitchen\\remys_kitchen\\backend\\remy_backend\\bistroremy\\controllers\\hozzavalocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|solutionrelative:bistroremy\\controllers\\hozzavalocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\bistroremy\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\bistroremy\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|solutionrelative:bistroremy\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\bistroremy\\controllers\\lepescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\bistroremy\\controllers\\lepescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|solutionrelative:bistroremy\\controllers\\lepescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\unittest_bistroremy\\controllers\\testlepescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\unittest_bistroremy\\controllers\\testlepescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|solutionrelative:unittest_bistroremy\\controllers\\testlepescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\unittest_bistroremy\\controllers\\testhozzavalocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\unittest_bistroremy\\controllers\\testhozzavalocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|solutionrelative:unittest_bistroremy\\controllers\\testhozzavalocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\unittest_bistroremy\\controllers\\testfelhasznalokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\unittest_bistroremy\\controllers\\testfelhasznalokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|solutionrelative:unittest_bistroremy\\controllers\\testfelhasznalokcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\unittest_bistroremy\\controllers\\testfelhasznalo_erzekenysegcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\unittest_bistroremy\\controllers\\testfelhasznalo_erzekenysegcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|solutionrelative:unittest_bistroremy\\controllers\\testfelhasznalo_erzekenysegcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\bistroremy\\models\\felhasznalo_erzekenyseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\bistroremy\\models\\felhasznalo_erzekenyseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|solutionrelative:bistroremy\\models\\felhasznalo_erzekenyseg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\bistroremy\\models\\hozzavalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\bistroremy\\models\\hozzavalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|solutionrelative:bistroremy\\models\\hozzavalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\bistroremy\\models\\felhasznalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\bistroremy\\models\\felhasznalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|solutionrelative:bistroremy\\models\\felhasznalo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\unittest_bistroremy\\controllers\\testhozzavalo_erzekenysegcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\unittest_bistroremy\\controllers\\testhozzavalo_erzekenysegcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|solutionrelative:unittest_bistroremy\\controllers\\testhozzavalo_erzekenysegcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\bistroremy\\controllers\\hozzavalo_erzekenysegcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\bistroremy\\controllers\\hozzavalo_erzekenysegcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{249603D3-2491-4A34-8319-E1FED899701D}|BistroRemy\\BistroRemy.csproj|solutionrelative:bistroremy\\controllers\\hozzavalo_erzekenysegcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\unittest_bistroremy\\testreceptcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\unittest_bistroremy\\testreceptcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|solutionrelative:unittest_bistroremy\\testreceptcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\unittest_bistroremy\\dbsets\\testrecept_hozzavalodbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\unittest_bistroremy\\dbsets\\testrecept_hozzavalodbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|solutionrelative:unittest_bistroremy\\dbsets\\testrecept_hozzavalodbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\unittest_bistroremy\\dbsets\\testhozzavalo_erzekenysegdbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\unittest_bistroremy\\dbsets\\testhozzavalo_erzekenysegdbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|solutionrelative:unittest_bistroremy\\dbsets\\testhozzavalo_erzekenysegdbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\unittest_bistroremy\\dbsets\\testhozzavalodbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\unittest_bistroremy\\dbsets\\testhozzavalodbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|solutionrelative:unittest_bistroremy\\dbsets\\testhozzavalodbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\unittest_bistroremy\\dbsets\\testfelhasznalodbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\unittest_bistroremy\\dbsets\\testfelhasznalodbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|solutionrelative:unittest_bistroremy\\dbsets\\testfelhasznalodbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\unittest_bistroremy\\dbsets\\testfelhasznalo_erzekenysegdbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\unittest_bistroremy\\dbsets\\testfelhasznalo_erzekenysegdbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|solutionrelative:unittest_bistroremy\\dbsets\\testfelhasznalo_erzekenysegdbset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\unittest_bistroremy\\controllers\\testkategoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\unittest_bistroremy\\controllers\\testkategoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|solutionrelative:unittest_bistroremy\\controllers\\testkategoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\unittest_bistroremy\\controllers\\testerzekenysegcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\unittest_bistroremy\\controllers\\testerzekenysegcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84EEB464-FC35-4930-98BF-C528FF682DD3}|UnitTest_BistroRemy\\UnitTest_BistroRemy.csproj|solutionrelative:unittest_bistroremy\\controllers\\testerzekenysegcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -90,15 +90,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "TestFelhasznalokController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\Controllers\\TestFelhasznalokController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\Controllers\\TestFelhasznalokController.cs",
               "RelativeDocumentMoniker": "UnitTest_BistroRemy\\Controllers\\TestFelhasznalokController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\Controllers\\TestFelhasznalokController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\Controllers\\TestFelhasznalokController.cs",
               "RelativeToolTip": "UnitTest_BistroRemy\\Controllers\\TestFelhasznalokController.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAgwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -109,9 +109,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "TestHozzavaloController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\Controllers\\TestHozzavaloController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\Controllers\\TestHozzavaloController.cs",
               "RelativeDocumentMoniker": "UnitTest_BistroRemy\\Controllers\\TestHozzavaloController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\Controllers\\TestHozzavaloController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\Controllers\\TestHozzavaloController.cs",
               "RelativeToolTip": "UnitTest_BistroRemy\\Controllers\\TestHozzavaloController.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwF0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,12 +119,40 @@
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LepesController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\BistroRemy\\Controllers\\LepesController.cs",
+              "RelativeDocumentMoniker": "BistroRemy\\Controllers\\LepesController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\BistroRemy\\Controllers\\LepesController.cs",
+              "RelativeToolTip": "BistroRemy\\Controllers\\LepesController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAiwFsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T21:08:36.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestLepesController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\Controllers\\TestLepesController.cs",
+              "RelativeDocumentMoniker": "UnitTest_BistroRemy\\Controllers\\TestLepesController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\Controllers\\TestLepesController.cs",
+              "RelativeToolTip": "UnitTest_BistroRemy\\Controllers\\TestLepesController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA+wGAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:21:22.385Z"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "TestHozzavaloDbSet.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\DbSets\\TestHozzavaloDbSet.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\DbSets\\TestHozzavaloDbSet.cs",
               "RelativeDocumentMoniker": "UnitTest_BistroRemy\\DbSets\\TestHozzavaloDbSet.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\DbSets\\TestHozzavaloDbSet.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\DbSets\\TestHozzavaloDbSet.cs",
               "RelativeToolTip": "UnitTest_BistroRemy\\DbSets\\TestHozzavaloDbSet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -134,50 +162,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HozzavaloController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Controllers\\HozzavaloController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\BistroRemy\\Controllers\\HozzavaloController.cs",
               "RelativeDocumentMoniker": "BistroRemy\\Controllers\\HozzavaloController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Controllers\\HozzavaloController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\BistroRemy\\Controllers\\HozzavaloController.cs",
               "RelativeToolTip": "BistroRemy\\Controllers\\HozzavaloController.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAiwMEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAUwMEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-23T21:21:07.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TestLepesController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\Controllers\\TestLepesController.cs",
-              "RelativeDocumentMoniker": "UnitTest_BistroRemy\\Controllers\\TestLepesController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\Controllers\\TestLepesController.cs",
-              "RelativeToolTip": "UnitTest_BistroRemy\\Controllers\\TestLepesController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA+wGAAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T19:21:22.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LepesController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Controllers\\LepesController.cs",
-              "RelativeDocumentMoniker": "BistroRemy\\Controllers\\LepesController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Controllers\\LepesController.cs",
-              "RelativeToolTip": "BistroRemy\\Controllers\\LepesController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAiwFsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T21:08:36.433Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Felhasznalo.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Models\\Felhasznalo.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\BistroRemy\\Models\\Felhasznalo.cs",
               "RelativeDocumentMoniker": "BistroRemy\\Models\\Felhasznalo.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Models\\Felhasznalo.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\BistroRemy\\Models\\Felhasznalo.cs",
               "RelativeToolTip": "BistroRemy\\Models\\Felhasznalo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -187,9 +187,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Hozzavalo.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Models\\Hozzavalo.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\BistroRemy\\Models\\Hozzavalo.cs",
               "RelativeDocumentMoniker": "BistroRemy\\Models\\Hozzavalo.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Models\\Hozzavalo.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\BistroRemy\\Models\\Hozzavalo.cs",
               "RelativeToolTip": "BistroRemy\\Models\\Hozzavalo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -199,9 +199,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Web.config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\BistroRemy\\Web.config",
               "RelativeDocumentMoniker": "BistroRemy\\Web.config",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Web.config",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\BistroRemy\\Web.config",
               "RelativeToolTip": "BistroRemy\\Web.config",
               "ViewState": "AgIAAFIAAAAAAAAAAAAewFcAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -211,9 +211,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Felhasznalo_Erzekenyseg.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Models\\Felhasznalo_Erzekenyseg.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\BistroRemy\\Models\\Felhasznalo_Erzekenyseg.cs",
               "RelativeDocumentMoniker": "BistroRemy\\Models\\Felhasznalo_Erzekenyseg.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Models\\Felhasznalo_Erzekenyseg.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\BistroRemy\\Models\\Felhasznalo_Erzekenyseg.cs",
               "RelativeToolTip": "BistroRemy\\Models\\Felhasznalo_Erzekenyseg.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -223,9 +223,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "TestFelhasznaloDbSet.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\DbSets\\TestFelhasznaloDbSet.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\DbSets\\TestFelhasznaloDbSet.cs",
               "RelativeDocumentMoniker": "UnitTest_BistroRemy\\DbSets\\TestFelhasznaloDbSet.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\DbSets\\TestFelhasznaloDbSet.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\DbSets\\TestFelhasznaloDbSet.cs",
               "RelativeToolTip": "UnitTest_BistroRemy\\DbSets\\TestFelhasznaloDbSet.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -235,9 +235,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "TestFelhasznalo_ErzekenysegDbSet.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\DbSets\\TestFelhasznalo_ErzekenysegDbSet.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\DbSets\\TestFelhasznalo_ErzekenysegDbSet.cs",
               "RelativeDocumentMoniker": "UnitTest_BistroRemy\\DbSets\\TestFelhasznalo_ErzekenysegDbSet.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\DbSets\\TestFelhasznalo_ErzekenysegDbSet.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\DbSets\\TestFelhasznalo_ErzekenysegDbSet.cs",
               "RelativeToolTip": "UnitTest_BistroRemy\\DbSets\\TestFelhasznalo_ErzekenysegDbSet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -247,9 +247,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "TestHozzavalo_ErzekenysegDbSet.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\DbSets\\TestHozzavalo_ErzekenysegDbSet.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\DbSets\\TestHozzavalo_ErzekenysegDbSet.cs",
               "RelativeDocumentMoniker": "UnitTest_BistroRemy\\DbSets\\TestHozzavalo_ErzekenysegDbSet.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\DbSets\\TestHozzavalo_ErzekenysegDbSet.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\DbSets\\TestHozzavalo_ErzekenysegDbSet.cs",
               "RelativeToolTip": "UnitTest_BistroRemy\\DbSets\\TestHozzavalo_ErzekenysegDbSet.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -259,9 +259,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "TestRecept_HozzavaloDbSet.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\DbSets\\TestRecept_HozzavaloDbSet.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\DbSets\\TestRecept_HozzavaloDbSet.cs",
               "RelativeDocumentMoniker": "UnitTest_BistroRemy\\DbSets\\TestRecept_HozzavaloDbSet.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\DbSets\\TestRecept_HozzavaloDbSet.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\DbSets\\TestRecept_HozzavaloDbSet.cs",
               "RelativeToolTip": "UnitTest_BistroRemy\\DbSets\\TestRecept_HozzavaloDbSet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -271,9 +271,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "TestReceptContext.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\TestReceptContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\TestReceptContext.cs",
               "RelativeDocumentMoniker": "UnitTest_BistroRemy\\TestReceptContext.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\TestReceptContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\TestReceptContext.cs",
               "RelativeToolTip": "UnitTest_BistroRemy\\TestReceptContext.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -283,9 +283,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "TestKategoriaController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\Controllers\\TestKategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\Controllers\\TestKategoriaController.cs",
               "RelativeDocumentMoniker": "UnitTest_BistroRemy\\Controllers\\TestKategoriaController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\Controllers\\TestKategoriaController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\Controllers\\TestKategoriaController.cs",
               "RelativeToolTip": "UnitTest_BistroRemy\\Controllers\\TestKategoriaController.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -295,9 +295,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "TestErzekenysegController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\Controllers\\TestErzekenysegController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\Controllers\\TestErzekenysegController.cs",
               "RelativeDocumentMoniker": "UnitTest_BistroRemy\\Controllers\\TestErzekenysegController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\Controllers\\TestErzekenysegController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\Controllers\\TestErzekenysegController.cs",
               "RelativeToolTip": "UnitTest_BistroRemy\\Controllers\\TestErzekenysegController.cs",
               "ViewState": "AgIAAEQAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -307,9 +307,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "TestHozzavalo_ErzekenysegController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\Controllers\\TestHozzavalo_ErzekenysegController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\Controllers\\TestHozzavalo_ErzekenysegController.cs",
               "RelativeDocumentMoniker": "UnitTest_BistroRemy\\Controllers\\TestHozzavalo_ErzekenysegController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\Controllers\\TestHozzavalo_ErzekenysegController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\Controllers\\TestHozzavalo_ErzekenysegController.cs",
               "RelativeToolTip": "UnitTest_BistroRemy\\Controllers\\TestHozzavalo_ErzekenysegController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAkwBUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -319,9 +319,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Hozzavalo_ErzekenysegController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Controllers\\Hozzavalo_ErzekenysegController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\BistroRemy\\Controllers\\Hozzavalo_ErzekenysegController.cs",
               "RelativeDocumentMoniker": "BistroRemy\\Controllers\\Hozzavalo_ErzekenysegController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\BistroRemy\\Controllers\\Hozzavalo_ErzekenysegController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\BistroRemy\\Controllers\\Hozzavalo_ErzekenysegController.cs",
               "RelativeToolTip": "BistroRemy\\Controllers\\Hozzavalo_ErzekenysegController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAA5wCcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -331,9 +331,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "TestFelhasznalo_ErzekenysegController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\Controllers\\TestFelhasznalo_ErzekenysegController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\Controllers\\TestFelhasznalo_ErzekenysegController.cs",
               "RelativeDocumentMoniker": "UnitTest_BistroRemy\\Controllers\\TestFelhasznalo_ErzekenysegController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\UnitTest_BistroRemy\\Controllers\\TestFelhasznalo_ErzekenysegController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Remy-s-kitchen\\Remys_kitchen\\Backend\\Remy_Backend\\UnitTest_BistroRemy\\Controllers\\TestFelhasznalo_ErzekenysegController.cs",
               "RelativeToolTip": "UnitTest_BistroRemy\\Controllers\\TestFelhasznalo_ErzekenysegController.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAiwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
