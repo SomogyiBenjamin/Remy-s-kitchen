@@ -120,7 +120,7 @@ describe('Login Functionality with an admin privileged profile', () => {
     cy.get('.Regbutton').should('be.visible');
     cy.get('.footer-contentLogin').should('be.visible');
 
-    cy.get('input[type="text"]').type('damate0609@gmail.com');
+    cy.get('input[type="text"]').type('admin@admin.hu');
     cy.get('input[type="password"]').type('password123');
     cy.get('.loginbutton').click();
 
